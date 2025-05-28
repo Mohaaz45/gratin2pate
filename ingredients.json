@@ -1,0 +1,51 @@
+[
+  {
+    "nom": "Penne Rigate",
+    "code_barres": "8076809579681",
+    "nutriscore": "A",
+    "image": "https://images.openfoodfacts.org/images/products/807/680/957/9681/front_fr.21.400.jpg",
+    "image_nutriscore": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-a-new-fr.svg"
+  },
+  {
+    "nom": "Chorizo",
+    "code_barres": "8480017676283",
+    "nutriscore": "E",
+    "image": "https://images.openfoodfacts.org/images/products/848/001/767/6283/front_fr.15.400.jpg",
+    "image_nutriscore": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-e-new-fr.svg"
+  },
+  {
+    "nom": "Jambon Cuit",
+    "code_barres": "3700311801194",
+    "nutriscore": "D",
+    "image": "https://images.openfoodfacts.org/images/products/370/031/180/1194/front_fr.33.400.jpg",
+    "image_nutriscore": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-d-new-fr.svg"
+  },
+  {
+    "nom": "Concentré de Tomates",
+    "code_barres": "31234672",
+    "nutriscore": "C",
+    "image": "https://images.openfoodfacts.org/images/products/000/003/123/4672/front_fr.3.400.jpg",
+    "image_nutriscore": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-c-new-fr.svg"
+  },
+  {
+    "nom": "Tomates Pelées",
+    "code_barres": "4056489515227",
+    "nutriscore": "A",
+    "image": "https://images.openfoodfacts.org/images/products/405/648/951/5227/front_fr.3.400.jpg",
+    "image_nutriscore": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-a-new-fr.svg"
+  },
+  {
+    "nom": "Herbes de Provence",
+    "code_barres": "3564700997987",
+    "nutriscore": "A",
+    "image": "https://images.openfoodfacts.org/images/products/356/470/099/7987/front_fr.24.400.jpg",
+    "image_nutriscore": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-a-new-fr.svg"
+  },
+  {
+    "nom": "Fromage Râpé - Président",
+    "code_barres": "3228022954454",
+    "nutriscore": "D",
+    "image": "https://images.openfoodfacts.org/images/products/322/802/295/4454/front_fr.15.400.jpg",
+    "image_nutriscore": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-d-new-fr.svg"
+  }
+]
