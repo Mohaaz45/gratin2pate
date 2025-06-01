@@ -11,10 +11,12 @@
             border-radius: 1rem;
             box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.1);
         }
-        .ingredient-card img {
-            height: 150px;
-            object-fit: cover;
+      .ingredient-card img {
+         height: 150px;
+         object-fit: contain;
+         background-color: #f8f9fa; /* fond clair derrière les images si elles ne remplissent pas tout */
         }
+
         .steps ol > li {
             margin-bottom: 0.8rem;
         }
@@ -32,76 +34,10 @@
 
     <div class="container my-5">
         <h2 class="fw-semibold mb-4">Ingrédients (4 personnes)</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <!-- exemple image -->
-                    <img src="" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">400g de pâtes (penne ou coquillettes)</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">50g de beurre</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">50g de farine</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">50cl de lait</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">200g de fromage râpé</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">100g de lardons</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">1 pincée de noix de muscade</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card ingredient-card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Sel et poivre</h5>
-                    </div>
-                </div>
-            </div>
-
+        <div id="ingredients-container" class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Cartes injectées ici par script.js -->
         </div>
-    </div>
+    </div> 
 
     <div class="container my-5 steps">
         <h2 class="fw-semibold mb-3">Préparation</h2>
@@ -122,6 +58,8 @@
     </footer>
 </main>
 
+<!-- Scripts JS à la fin -->
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
